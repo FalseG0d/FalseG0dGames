@@ -352,6 +352,10 @@ body {
     margin: 5px;
 }
 
+.grid-item:hover {
+    transform: scale(1.05);
+}
+
 
 /* Firefox hack 
    https://css-tricks.com/snippets/css/css-hacks-targeting-firefox/
