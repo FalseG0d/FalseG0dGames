@@ -346,11 +346,93 @@ http://www.tooplate.com/view/2094-mason
     /* fluid 5 columns */
     
     .grid-item {
-        margin: 5px;
+        margin: 1%;
     }
     
     .grid-item:hover {
         transform: scale(1.05);
+    }
+    
+    .game-image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+    
+    .game-middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    .game {
+        padding: 3% 0% 0% 0%;
+    }
+    
+    .game:hover .game-image {
+        opacity: 0.3;
+    }
+    
+    .game:hover .game-middle {
+        opacity: 1;
+    }
+    
+    .game-title {
+        color: white;
+        white-space: nowrap;
+    }
+    
+    .game-genre {
+        color: white;
+        font-size: 80%;
+        padding-top: 3%;
+        float: left;
+    }
+    
+    .game-rating {
+        float: right;
+        color: white;
+    }
+    
+    .game-description {
+        color: white;
+        padding: 10% 5% 10% 5%;
+        font-size: 80%;
+        text-align: left;
+    }
+    
+    .game-play-button {
+        background-color: #4CAF50;
+        font-size: 80%;
+        padding: 5% 10%;
+        float: left;
+    }
+    
+    .game-play-button:hover {
+        background-color: #84df87;
+        font-size: 80%;
+        padding: 5% 10%;
+    }
+    
+    .game-rate-button {
+        background-color: #3c46d3;
+        font-size: 80%;
+        padding: 5% 10%;
+        float: right;
+    }
+    
+    .game-rate-button:hover {
+        background-color: #8c92ec;
+        font-size: 80%;
+        padding: 5% 10%;
     }
     /* Firefox hack 
    https://css-tricks.com/snippets/css/css-hacks-targeting-firefox/
