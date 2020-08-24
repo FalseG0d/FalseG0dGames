@@ -375,6 +375,8 @@ http://www.tooplate.com/view/2094-mason
         position: absolute;
         top: 50%;
         left: 50%;
+        width: 90%;
+        height: 90%;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         text-align: center;
@@ -420,8 +422,11 @@ http://www.tooplate.com/view/2094-mason
     .game-play-button {
         background-color: #4CAF50;
         font-size: 80%;
+        color: white;
         padding: 5% 10%;
-        float: left;
+        position: absolute;
+        left: 4px;
+        bottom: 10px;
     }
     
     .game-play-button:hover {
@@ -433,8 +438,11 @@ http://www.tooplate.com/view/2094-mason
     .game-rate-button {
         background-color: #3c46d3;
         font-size: 80%;
+        color: white;
         padding: 5% 10%;
-        float: right;
+        position: absolute;
+        right: 4px;
+        bottom: 10px;
     }
     
     .game-rate-button:hover {
