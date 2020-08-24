@@ -388,6 +388,7 @@ http://www.tooplate.com/view/2094-mason
     .game-title {
         color: white;
         white-space: nowrap;
+        padding-top: 10%;
     }
     
     .game-genre {
